@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-http';
 
-  constructor(private api:ApiService){
-    console.log(this.api.getRandomDogFact())
-  }
+  // constructor(private api:ApiService){
+  //   this.api.getRandomDogFact();
+  // }
 }
