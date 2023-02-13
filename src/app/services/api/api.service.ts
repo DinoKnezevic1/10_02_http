@@ -12,4 +12,12 @@ export class ApiService {
     //   console.log(response);
     // });
   }
+  urlCat= 'https://api.thecatapi.com/v1/images/search?limit=1';
+  urlCatFacts='https://cat-fact.herokuapp.com/facts';
+  getRandomCatImage(){
+    return this.http.get(this.urlCat);
+  }
+  getDailyCatFacts(){
+    return this.http.get(this.urlCatFacts);
+  }
 }

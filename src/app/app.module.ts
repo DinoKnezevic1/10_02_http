@@ -7,7 +7,7 @@ import { DogsComponent } from './components/dogs/dogs.component';
 import { CatsComponent } from './components/cats/cats.component';
 import { MouseComponent } from './components/mouse/mouse.component';
 import { HeaderComponent } from './components/header/header.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms'
 import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
